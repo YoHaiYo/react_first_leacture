@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <p>이미지 소스 넣기 </p> 
+      <img src='/logo512.png'></img>
+      <p>소스호출하기 (public은 루트디렉토리로 / 하면 됨.)</p>
+      <p>src 안에 넣은 소스는 node의 컴파일과정을 거치므로</p>
+    </>
   );
 }
 
